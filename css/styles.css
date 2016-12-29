@@ -1,0 +1,84 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #336E7B;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.card {
+  width: 360px;
+  margin: 0 auto;
+  background: blue;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
+
+.card__header {
+  padding: 20px;
+}
+
+.card__name {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.card__position {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  color: #ccc;
+}
+
+.card__image {
+  width: inherit;
+}
+
+.card__image img{
+  width: inherit;
+}
+
+.card__description {
+  padding: 20px;
+}
+
+.card__description > p {
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+.card__actions {
+  padding: 20px;
+  background: #F8F8F8;
+  border-radius: 2px;
+  border-top: 1px solid #efefef;
+}
+
+.card__actions > button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+  background: #6DBF51;
+  color: #fff;
+  border-radius: 2px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.card__actions > button:first-child {
+  margin-right: 10px;
+}
+
+.card__actions > button:last-child {
+  background: #5EC8D6;
+}
+
